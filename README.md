@@ -19,9 +19,13 @@ To run the simulation and the tool follow the next steps:
 
 * activate venv
 
+``cd venv``
+
 ``source ./bin/activate ``
 
 * source ROS
+
+``cd active-camera-selection``
 
 `` cd /catkin_ws``
 
