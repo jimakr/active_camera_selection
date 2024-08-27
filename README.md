@@ -13,6 +13,8 @@ follow 1.1, 1.2, 1.3, 1.4
 
 
 To run the simulation and the tool follow the next steps:
+* enter current directory ``cd active-camera-selection``
+  
 * run ``./venv_setup.sh ``
 
 * activate venv
