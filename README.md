@@ -13,13 +13,19 @@ follow 1.1, 1.2, 1.3, 1.4
 
 
 To run the simulation and the tool follow the next steps:
+* enter current directory ``cd active-camera-selection``
+  
 * run ``./venv_setup.sh ``
 
 * activate venv
 
+``cd venv``
+
 ``source ./bin/activate ``
 
-* source ROS
+* Build ROS packages
+
+In ``$active-camera-selection`` directory 
 
 `` cd /catkin_ws``
 
@@ -31,7 +37,6 @@ To run the simulation and the tool follow the next steps:
 
 ``roslaunch robosapiens_tool active_camera_selection.launch``
 
-https://drive.google.com/file/d/1YyOXba8wrdovWMPNo5imzmLLTzOlbqh3/view?usp=drive_link
 
 <img src="demo_image.png" alt="Demo Image" width="640" height="320">
 
@@ -39,5 +44,12 @@ Here is a video showcasing our project.
 
 [Demo Video](https://github.com/mthodoris/active-camera-selection/blob/master/demo_video.mp4)
 
+OR 
 
+https://drive.google.com/file/d/1YyOXba8wrdovWMPNo5imzmLLTzOlbqh3/view?usp=drive_link
+
+
+A graphical representation of the ros-nodes is depicted in the following graph
+
+<img src="catkin_ws/src/robosapiens_tool/rosgraph.png" alt="ROS nodes graph" width="866" height="540">
  
