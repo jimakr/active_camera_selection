@@ -53,5 +53,5 @@ https://drive.google.com/file/d/1YyOXba8wrdovWMPNo5imzmLLTzOlbqh3/view?usp=drive
 
 A graphical representation of the ros-nodes is depicted in the following graph
 
-<img src="catkin_ws/src/robosapiens_tool/rosgraph.png" alt="ROS nodes graph" width="866" height="540">
+<img src="/catkin_ws/src/robosapiens_tool/rosgraph.png" alt="ROS nodes graph" width="866" height="540">
  
