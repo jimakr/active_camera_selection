@@ -35,4 +35,9 @@ https://drive.google.com/file/d/1YyOXba8wrdovWMPNo5imzmLLTzOlbqh3/view?usp=drive
 
 ![Image from demo](https://github.com/mthodoris/Robosapiens_Active_Camera_Selection/blob/main/demo_image.png "Image from demo")
 
+Here is a video showcasing our project.
+
+[Demo Video](https://github.com/mthodoris/active-camera-selection/blob/master/demo_video.mp4)
+
+
  
