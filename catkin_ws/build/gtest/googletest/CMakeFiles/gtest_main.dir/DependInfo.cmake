@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/usr/src/googletest/googletest/src/gtest_main.cc" "/home/thodoris/gitv2/Robosapiens_Active_Camera_Selection/catkin_ws/build/gtest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o"
+  "/usr/src/googletest/googletest/src/gtest_main.cc" "/home/thodoris/new_git_repo/active-camera-selection/catkin_ws/build/gtest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -22,7 +22,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/thodoris/gitv2/Robosapiens_Active_Camera_Selection/catkin_ws/build/gtest/googletest/CMakeFiles/gtest.dir/DependInfo.cmake"
+  "/home/thodoris/new_git_repo/active-camera-selection/catkin_ws/build/gtest/googletest/CMakeFiles/gtest.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

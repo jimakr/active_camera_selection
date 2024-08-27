@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/thodoris/gitv2/Robosapiens_Active_Camera_Selection/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/thodoris/new_git_repo/active-camera-selection/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/thodoris/gitv2/Robosapiens_Active_Camera_Selection/catkin_ws/build
+CMAKE_BINARY_DIR = /home/thodoris/new_git_repo/active-camera-selection/catkin_ws/build
 
 # Utility rule file for clean_test_results.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/thodoris/gitv2/Robosapiens_Active_Camera_Selection/catk
 include CMakeFiles/clean_test_results.dir/progress.make
 
 CMakeFiles/clean_test_results:
-	/usr/bin/python3 /opt/ros/noetic/share/catkin/cmake/test/remove_test_results.py /home/thodoris/gitv2/Robosapiens_Active_Camera_Selection/catkin_ws/build/test_results
+	/usr/bin/python3 /opt/ros/noetic/share/catkin/cmake/test/remove_test_results.py /home/thodoris/new_git_repo/active-camera-selection/catkin_ws/build/test_results
 
 clean_test_results: CMakeFiles/clean_test_results
 clean_test_results: CMakeFiles/clean_test_results.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/clean_test_results.dir/clean:
 .PHONY : CMakeFiles/clean_test_results.dir/clean
 
 CMakeFiles/clean_test_results.dir/depend:
-	cd /home/thodoris/gitv2/Robosapiens_Active_Camera_Selection/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/thodoris/gitv2/Robosapiens_Active_Camera_Selection/catkin_ws/src /home/thodoris/gitv2/Robosapiens_Active_Camera_Selection/catkin_ws/src /home/thodoris/gitv2/Robosapiens_Active_Camera_Selection/catkin_ws/build /home/thodoris/gitv2/Robosapiens_Active_Camera_Selection/catkin_ws/build /home/thodoris/gitv2/Robosapiens_Active_Camera_Selection/catkin_ws/build/CMakeFiles/clean_test_results.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/thodoris/new_git_repo/active-camera-selection/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/thodoris/new_git_repo/active-camera-selection/catkin_ws/src /home/thodoris/new_git_repo/active-camera-selection/catkin_ws/src /home/thodoris/new_git_repo/active-camera-selection/catkin_ws/build /home/thodoris/new_git_repo/active-camera-selection/catkin_ws/build /home/thodoris/new_git_repo/active-camera-selection/catkin_ws/build/CMakeFiles/clean_test_results.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/clean_test_results.dir/depend
 

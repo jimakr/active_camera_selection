@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/thodoris/gitv2/Robosapiens_Active_Camera_Selection/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/thodoris/new_git_repo/active-camera-selection/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/thodoris/gitv2/Robosapiens_Active_Camera_Selection/catkin_ws/build
+CMAKE_BINARY_DIR = /home/thodoris/new_git_repo/active-camera-selection/catkin_ws/build
 
 # Utility rule file for robosapiens_tool_gennodejs.
 
@@ -63,10 +63,10 @@ robosapiens_tool/CMakeFiles/robosapiens_tool_gennodejs.dir/build: robosapiens_to
 .PHONY : robosapiens_tool/CMakeFiles/robosapiens_tool_gennodejs.dir/build
 
 robosapiens_tool/CMakeFiles/robosapiens_tool_gennodejs.dir/clean:
-	cd /home/thodoris/gitv2/Robosapiens_Active_Camera_Selection/catkin_ws/build/robosapiens_tool && $(CMAKE_COMMAND) -P CMakeFiles/robosapiens_tool_gennodejs.dir/cmake_clean.cmake
+	cd /home/thodoris/new_git_repo/active-camera-selection/catkin_ws/build/robosapiens_tool && $(CMAKE_COMMAND) -P CMakeFiles/robosapiens_tool_gennodejs.dir/cmake_clean.cmake
 .PHONY : robosapiens_tool/CMakeFiles/robosapiens_tool_gennodejs.dir/clean
 
 robosapiens_tool/CMakeFiles/robosapiens_tool_gennodejs.dir/depend:
-	cd /home/thodoris/gitv2/Robosapiens_Active_Camera_Selection/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/thodoris/gitv2/Robosapiens_Active_Camera_Selection/catkin_ws/src /home/thodoris/gitv2/Robosapiens_Active_Camera_Selection/catkin_ws/src/robosapiens_tool /home/thodoris/gitv2/Robosapiens_Active_Camera_Selection/catkin_ws/build /home/thodoris/gitv2/Robosapiens_Active_Camera_Selection/catkin_ws/build/robosapiens_tool /home/thodoris/gitv2/Robosapiens_Active_Camera_Selection/catkin_ws/build/robosapiens_tool/CMakeFiles/robosapiens_tool_gennodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/thodoris/new_git_repo/active-camera-selection/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/thodoris/new_git_repo/active-camera-selection/catkin_ws/src /home/thodoris/new_git_repo/active-camera-selection/catkin_ws/src/robosapiens_tool /home/thodoris/new_git_repo/active-camera-selection/catkin_ws/build /home/thodoris/new_git_repo/active-camera-selection/catkin_ws/build/robosapiens_tool /home/thodoris/new_git_repo/active-camera-selection/catkin_ws/build/robosapiens_tool/CMakeFiles/robosapiens_tool_gennodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : robosapiens_tool/CMakeFiles/robosapiens_tool_gennodejs.dir/depend
 

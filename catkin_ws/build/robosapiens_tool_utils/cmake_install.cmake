@@ -1,8 +1,8 @@
-# Install script for directory: /home/thodoris/gitv2/Robosapiens_Active_Camera_Selection/catkin_ws/src/robosapiens_tool_utils
+# Install script for directory: /home/thodoris/new_git_repo/active-camera-selection/catkin_ws/src/robosapiens_tool_utils
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/thodoris/gitv2/Robosapiens_Active_Camera_Selection/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/thodoris/new_git_repo/active-camera-selection/catkin_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,21 +38,21 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/thodoris/gitv2/Robosapiens_Active_Camera_Selection/catkin_ws/build/robosapiens_tool_utils/catkin_generated/safe_execute_install.cmake")
+  include("/home/thodoris/new_git_repo/active-camera-selection/catkin_ws/build/robosapiens_tool_utils/catkin_generated/safe_execute_install.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/thodoris/gitv2/Robosapiens_Active_Camera_Selection/catkin_ws/build/robosapiens_tool_utils/catkin_generated/installspace/robosapiens_tool_utils.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/thodoris/new_git_repo/active-camera-selection/catkin_ws/build/robosapiens_tool_utils/catkin_generated/installspace/robosapiens_tool_utils.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robosapiens_tool_utils/cmake" TYPE FILE FILES
-    "/home/thodoris/gitv2/Robosapiens_Active_Camera_Selection/catkin_ws/build/robosapiens_tool_utils/catkin_generated/installspace/robosapiens_tool_utilsConfig.cmake"
-    "/home/thodoris/gitv2/Robosapiens_Active_Camera_Selection/catkin_ws/build/robosapiens_tool_utils/catkin_generated/installspace/robosapiens_tool_utilsConfig-version.cmake"
+    "/home/thodoris/new_git_repo/active-camera-selection/catkin_ws/build/robosapiens_tool_utils/catkin_generated/installspace/robosapiens_tool_utilsConfig.cmake"
+    "/home/thodoris/new_git_repo/active-camera-selection/catkin_ws/build/robosapiens_tool_utils/catkin_generated/installspace/robosapiens_tool_utilsConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robosapiens_tool_utils" TYPE FILE FILES "/home/thodoris/gitv2/Robosapiens_Active_Camera_Selection/catkin_ws/src/robosapiens_tool_utils/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robosapiens_tool_utils" TYPE FILE FILES "/home/thodoris/new_git_repo/active-camera-selection/catkin_ws/src/robosapiens_tool_utils/package.xml")
 endif()
 

@@ -1,8 +1,8 @@
-prefix=/home/thodoris/gitv2/Robosapiens_Active_Camera_Selection/catkin_ws/devel
+prefix=/home/thodoris/new_git_repo/active-camera-selection/catkin_ws/devel
 
 Name: robosapiens_tool
 Description: Description of robosapiens_tool
 Version: 0.0.0
-Cflags: -I/home/thodoris/gitv2/Robosapiens_Active_Camera_Selection/catkin_ws/devel/include -I/home/thodoris/gitv2/Robosapiens_Active_Camera_Selection/catkin_ws/src/robosapiens_tool/include
+Cflags: -I/home/thodoris/new_git_repo/active-camera-selection/catkin_ws/devel/include -I/home/thodoris/new_git_repo/active-camera-selection/catkin_ws/src/robosapiens_tool/include
 Libs: -L${prefix}/lib -lrobosapiens_tool
 Requires: message_generation roscpp rospy sensor_msgs std_msgs

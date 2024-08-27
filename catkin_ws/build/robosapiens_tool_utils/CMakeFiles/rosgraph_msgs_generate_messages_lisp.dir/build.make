@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/thodoris/gitv2/Robosapiens_Active_Camera_Selection/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/thodoris/new_git_repo/active-camera-selection/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/thodoris/gitv2/Robosapiens_Active_Camera_Selection/catkin_ws/build
+CMAKE_BINARY_DIR = /home/thodoris/new_git_repo/active-camera-selection/catkin_ws/build
 
 # Utility rule file for rosgraph_msgs_generate_messages_lisp.
 
@@ -63,10 +63,10 @@ robosapiens_tool_utils/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
 .PHONY : robosapiens_tool_utils/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
 
 robosapiens_tool_utils/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean:
-	cd /home/thodoris/gitv2/Robosapiens_Active_Camera_Selection/catkin_ws/build/robosapiens_tool_utils && $(CMAKE_COMMAND) -P CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/cmake_clean.cmake
+	cd /home/thodoris/new_git_repo/active-camera-selection/catkin_ws/build/robosapiens_tool_utils && $(CMAKE_COMMAND) -P CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/cmake_clean.cmake
 .PHONY : robosapiens_tool_utils/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
 
 robosapiens_tool_utils/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/depend:
-	cd /home/thodoris/gitv2/Robosapiens_Active_Camera_Selection/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/thodoris/gitv2/Robosapiens_Active_Camera_Selection/catkin_ws/src /home/thodoris/gitv2/Robosapiens_Active_Camera_Selection/catkin_ws/src/robosapiens_tool_utils /home/thodoris/gitv2/Robosapiens_Active_Camera_Selection/catkin_ws/build /home/thodoris/gitv2/Robosapiens_Active_Camera_Selection/catkin_ws/build/robosapiens_tool_utils /home/thodoris/gitv2/Robosapiens_Active_Camera_Selection/catkin_ws/build/robosapiens_tool_utils/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/thodoris/new_git_repo/active-camera-selection/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/thodoris/new_git_repo/active-camera-selection/catkin_ws/src /home/thodoris/new_git_repo/active-camera-selection/catkin_ws/src/robosapiens_tool_utils /home/thodoris/new_git_repo/active-camera-selection/catkin_ws/build /home/thodoris/new_git_repo/active-camera-selection/catkin_ws/build/robosapiens_tool_utils /home/thodoris/new_git_repo/active-camera-selection/catkin_ws/build/robosapiens_tool_utils/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : robosapiens_tool_utils/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/depend
 

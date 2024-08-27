@@ -2,7 +2,7 @@
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/thodoris/gitv2/Robosapiens_Active_Camera_Selection/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/thodoris/new_git_repo/active-camera-selection/catkin_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

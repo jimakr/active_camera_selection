@@ -67,14 +67,14 @@ set(robosapiens_tool_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
-  set(robosapiens_tool_SOURCE_PREFIX /home/thodoris/gitv2/Robosapiens_Active_Camera_Selection/catkin_ws/src/robosapiens_tool)
-  set(robosapiens_tool_DEVEL_PREFIX /home/thodoris/gitv2/Robosapiens_Active_Camera_Selection/catkin_ws/devel)
+  set(robosapiens_tool_SOURCE_PREFIX /home/thodoris/new_git_repo/active-camera-selection/catkin_ws/src/robosapiens_tool)
+  set(robosapiens_tool_DEVEL_PREFIX /home/thodoris/new_git_repo/active-camera-selection/catkin_ws/devel)
   set(robosapiens_tool_INSTALL_PREFIX "")
   set(robosapiens_tool_PREFIX ${robosapiens_tool_DEVEL_PREFIX})
 else()
   set(robosapiens_tool_SOURCE_PREFIX "")
   set(robosapiens_tool_DEVEL_PREFIX "")
-  set(robosapiens_tool_INSTALL_PREFIX /home/thodoris/gitv2/Robosapiens_Active_Camera_Selection/catkin_ws/install)
+  set(robosapiens_tool_INSTALL_PREFIX /home/thodoris/new_git_repo/active-camera-selection/catkin_ws/install)
   set(robosapiens_tool_PREFIX ${robosapiens_tool_INSTALL_PREFIX})
 endif()
 
@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(robosapiens_tool_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "/home/thodoris/gitv2/Robosapiens_Active_Camera_Selection/catkin_ws/devel/include;/home/thodoris/gitv2/Robosapiens_Active_Camera_Selection/catkin_ws/src/robosapiens_tool/include " STREQUAL " ")
+if(NOT "/home/thodoris/new_git_repo/active-camera-selection/catkin_ws/devel/include;/home/thodoris/new_git_repo/active-camera-selection/catkin_ws/src/robosapiens_tool/include " STREQUAL " ")
   set(robosapiens_tool_INCLUDE_DIRS "")
-  set(_include_dirs "/home/thodoris/gitv2/Robosapiens_Active_Camera_Selection/catkin_ws/devel/include;/home/thodoris/gitv2/Robosapiens_Active_Camera_Selection/catkin_ws/src/robosapiens_tool/include")
+  set(_include_dirs "/home/thodoris/new_git_repo/active-camera-selection/catkin_ws/devel/include;/home/thodoris/new_git_repo/active-camera-selection/catkin_ws/src/robosapiens_tool/include")
   if(NOT " " STREQUAL " ")
     set(_report "Check the issue tracker '' and consider creating a ticket if the problem has not been reported yet.")
   elseif(NOT " " STREQUAL " ")
@@ -110,7 +110,7 @@ if(NOT "/home/thodoris/gitv2/Robosapiens_Active_Camera_Selection/catkin_ws/devel
         message(FATAL_ERROR "Project 'robosapiens_tool' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
-      message(FATAL_ERROR "Project 'robosapiens_tool' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/thodoris/gitv2/Robosapiens_Active_Camera_Selection/catkin_ws/src/robosapiens_tool/${idir}'.  ${_report}")
+      message(FATAL_ERROR "Project 'robosapiens_tool' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/thodoris/new_git_repo/active-camera-selection/catkin_ws/src/robosapiens_tool/${idir}'.  ${_report}")
     endif()
     _list_append_unique(robosapiens_tool_INCLUDE_DIRS ${include})
   endforeach()
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/thodoris/gitv2/Robosapiens_Active_Camera_Selection/catkin_ws/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/thodoris/new_git_repo/active-camera-selection/catkin_ws/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

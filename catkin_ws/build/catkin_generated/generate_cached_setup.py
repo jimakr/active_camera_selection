@@ -19,9 +19,9 @@ except ImportError:
             break
     from catkin.environment_cache import generate_environment_script
 
-code = generate_environment_script('/home/thodoris/gitv2/Robosapiens_Active_Camera_Selection/catkin_ws/devel/env.sh')
+code = generate_environment_script('/home/thodoris/new_git_repo/active-camera-selection/catkin_ws/devel/env.sh')
 
-output_filename = '/home/thodoris/gitv2/Robosapiens_Active_Camera_Selection/catkin_ws/build/catkin_generated/setup_cached.sh'
+output_filename = '/home/thodoris/new_git_repo/active-camera-selection/catkin_ws/build/catkin_generated/setup_cached.sh'
 with open(output_filename, 'w') as f:
     # print('Generate script for cached setup "%s"' % output_filename)
     f.write('\n'.join(code))
