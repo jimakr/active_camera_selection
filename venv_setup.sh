@@ -5,13 +5,16 @@ venv_name="venv"
 
 # Create the virtual environment
 python3 -m venv $venv_name
+echo "Virtual environment '$venv_name' created"
 
 # Activate the virtual environment
 source $venv_name/bin/activate
+echo "Virtual environment '$venv_name' activated"
 
 # Install the requirements
+echo "Install the requirements"
 pip3 install -r requirements.txt
 
 # Notify the user
 echo "Virtual environment '$venv_name' created and activated."
-
+ 
