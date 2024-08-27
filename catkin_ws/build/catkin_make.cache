@@ -1,2 +1,0 @@
-robosapiens_tool:robosapiens_tool_utils
--DPYTHON_EXECUTABLE=/usr/bin/python3 -DCATKIN_DEVEL_PREFIX=/home/thodoris/new_git_repo/active-camera-selection/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/thodoris/new_git_repo/active-camera-selection/catkin_ws/install -G Unix Makefiles

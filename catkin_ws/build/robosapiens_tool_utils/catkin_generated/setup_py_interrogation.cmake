@@ -1,7 +1,0 @@
-set(robosapiens_tool_utils_SETUP_PY_SETUP_MODULE "distutils.core")
-set(robosapiens_tool_utils_SETUP_PY_VERSION "0.0.0")
-set(robosapiens_tool_utils_SETUP_PY_SCRIPTS "")
-set(robosapiens_tool_utils_SETUP_PY_PACKAGES "robosapiens_tool_utils")
-set(robosapiens_tool_utils_SETUP_PY_PACKAGE_DIRS "src/robosapiens_tool_utils")
-set(robosapiens_tool_utils_SETUP_PY_MODULES "")
-set(robosapiens_tool_utils_SETUP_PY_MODULE_DIRS "")
