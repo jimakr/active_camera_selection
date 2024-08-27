@@ -27,6 +27,8 @@ To run the simulation and the tool follow the next steps:
 
 In ``$active-camera-selection`` directory 
 
+``cd active-camera-selection``
+
 `` cd /catkin_ws``
 
 ``catkin_make``
