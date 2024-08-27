@@ -3,6 +3,13 @@ Best view selected from multicamera system
 
 
 ROS version: noetic
+Install ROS noetic instructions
+
+http://wiki.ros.org/noetic/Installation/Ubuntu
+
+follow 1.1, 1.2, 1.3, 1.4
+
+1.4 --> ``sudo apt install ros-noetic-desktop``
 
 
 To run the simulation and the tool follow the next steps:
