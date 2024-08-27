@@ -1,8 +1,0 @@
-prefix=/home/thodoris/new_git_repo/active-camera-selection/catkin_ws/devel
-
-Name: robosapiens_tool_utils
-Description: Description of robosapiens_tool_utils
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 
