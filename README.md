@@ -33,7 +33,7 @@ To run the simulation and the tool follow the next steps:
 
 https://drive.google.com/file/d/1YyOXba8wrdovWMPNo5imzmLLTzOlbqh3/view?usp=drive_link
 
-![Image from demo](https://github.com/mthodoris/Robosapiens_Active_Camera_Selection/blob/main/demo_image.png "Image from demo")
+<img src="demo_image.png" alt="Demo Image" width="640" height="320">
 
 Here is a video showcasing our project.
 
