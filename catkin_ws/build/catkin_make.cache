@@ -1,0 +1,2 @@
+robosapiens_tool:robosapiens_tool_utils
+-DCATKIN_DEVEL_PREFIX=/home/thodoris/gitv2/Robosapiens_Active_Camera_Selection/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/thodoris/gitv2/Robosapiens_Active_Camera_Selection/catkin_ws/install -G Unix Makefiles
