@@ -11,6 +11,9 @@ follow 1.1, 1.2, 1.3, 1.4
 
 1.4 --> ``sudo apt install ros-noetic-desktop``
 
+Add Gazebo for running the simulation environment
+
+Instructions: https://classic.gazebosim.org/tutorials?tut=install_ubuntu
 
 To run the simulation and the tool follow the next steps:
 * enter current directory ``cd active-camera-selection``
