@@ -2,3 +2,4 @@
 opencv-python
 PyYAML
 rospkg
+networkx==3.1
