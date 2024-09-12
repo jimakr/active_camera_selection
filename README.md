@@ -1,6 +1,6 @@
 # Robosapiens Active Camera Selection
 Best view selected from multicamera system
-
+![](https://github.com/mthodoris/active-camera-selection/demogif.gif)
 
 ROS version: noetic
 Install ROS noetic instructions
