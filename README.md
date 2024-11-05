@@ -2,6 +2,12 @@
 Best view selected from multicamera system
 ![](https://github.com/mthodoris/active-camera-selection/demogif.gif)
 
+# The following instructions apply ONLY to Ubuntu 20.04 
+For the instructions to work, we recommend using a machine with Ubuntu 20.04 directly installed on the system.
+It was also tested and verified to work with these configurations:
+VM with GPU passthrough
+The easiest method is to use an LXD or Incus system container with xserver forwarding to the host OS like mentioned here (https://blog.simos.info/running-x11-software-in-lxd-containers/)
+
 ROS version: noetic
 Install ROS noetic instructions
 
