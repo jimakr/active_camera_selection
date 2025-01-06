@@ -1,66 +1,51 @@
-# Robosapiens Active Camera Selection
-Best view selected from multicamera system
-![](https://github.com/mthodoris/active-camera-selection/demogif.gif)
+# RoboSAPIENS Active Camera Selection
 
-# The following instructions apply ONLY to Ubuntu 20.04 
-For the instructions to work, we recommend using a machine with Ubuntu 20.04 directly installed on the system.
-It was also tested and verified to work with these configurations:
-VM with GPU passthrough
-The easiest method is to use an LXD or Incus system container with xserver forwarding to the host OS like mentioned here (https://blog.simos.info/running-x11-software-in-lxd-containers/)
+This repository provides an implementation of an active perception tool in a multi-camera environment. 
 
-ROS version: noetic
-Install ROS noetic instructions
+## Installation Instructions:
 
-http://wiki.ros.org/noetic/Installation/Ubuntu
+We recommend using a machine with Ubuntu 20.04 (native installation). 
+The approach was also tested and verified to work on VMs with GPU passthrough. 
+The easiest method is to use an LXD or Incus system container with [xserver forwarding to the host OS](https://blog.simos.info/running-x11-software-in-lxd-containers/).
 
-follow 1.1, 1.2, 1.3, 1.4
-
-1.4 --> ``sudo apt install ros-noetic-desktop``
-
-Add Gazebo for running the simulation environment
-
-Instructions: https://classic.gazebosim.org/tutorials?tut=install_ubuntu
-
-To run the simulation and the tool follow the next steps:
-* enter current directory ``cd active-camera-selection``
+1. [Install ROS Noetic](http://wiki.ros.org/noetic/Installation/Ubuntu)
+- Follow Section 1.1, 1.2, 1.3, 1.4.
+- In 1.4 select ``sudo apt install ros-noetic-desktop``
   
-* run ``./venv_setup.sh ``
+2. [Install Gazebo](https://classic.gazebosim.org/tutorials?tut=install_ubuntu)
 
-* activate venv
+## Running the tool and the simulator:
+To run the simulation and the tool follow the next steps:
+1. Enter current directory ``cd active-camera-selection``
+2. Run ``./venv_setup.sh ``
+3. Run ``activate venv``
+4. Run ``cd venv``
+5. Run ``source ./bin/activate ``
 
-``cd venv``
+Before running for the first time you also need to build ROS packages (only needed once):
 
-``source ./bin/activate ``
+1. Enter ``cd active-camera-selection``
+2. Run `` cd /catkin_ws``
+4. Run ``catkin_make``
 
-* Build ROS packages
+To launch the project:
+1. Run ``source devel/setup.bash``
+2. ``roslaunch robosapiens_tool active_camera_selection.launch``
 
-In ``$active-camera-selection`` directory 
-
-``cd active-camera-selection``
-
-`` cd /catkin_ws``
-
-``catkin_make``
-
-``source devel/setup.bash``
-
-* Launch the project
-
-``roslaunch robosapiens_tool active_camera_selection.launch``
-
+## Examples:
 
 <img src="demo_image.png" alt="Demo Image" width="640" height="320">
 
-Here is a video showcasing our project.
+A video showcasing the tool is available [here](https://drive.google.com/file/d/1YyOXba8wrdovWMPNo5imzmLLTzOlbqh3/view?usp=drive_link) or [Demo Video](https://github.com/mthodoris/active-camera-selection/blob/master/demo_video.mp4)
 
-[Demo Video](https://github.com/mthodoris/active-camera-selection/blob/master/demo_video.mp4)
-
-OR 
-
-https://drive.google.com/file/d/1YyOXba8wrdovWMPNo5imzmLLTzOlbqh3/view?usp=drive_link
-
-
-A graphical representation of the ros-nodes is depicted in the following graph
+A graphical representation of the ros-nodes is depicted below:
 
 <img src="/catkin_ws/src/robosapiens_tool/rosgraph.png" alt="ROS nodes graph" width="866" height="540">
+
+
+## Acknowledgments
+
+The work presented here is supported by the RoboSAPIENS project funded by the European Commission’s Horizon Europe programme under grant agreement number 101133807. This publication reflects the authors’ views only. The European Commission is not responsible for any use that may be made of the information it contains.
+
+Learn more about [RoboSAPIENS](https://robosapiens-eu.tech/).
  
