@@ -1,6 +1,6 @@
 # RoboSAPIENS Active Camera Selection
 
-This repository offers an implementation of an active perception tool designed for human pose estimation in a multi-camera environment, providing adaptability to various scenarios
+This repository offers an implementation of an active perception tool designed for human pose estimation in a multi-camera environment, providing adaptability to various scenarios.
 
 ## Installation Instructions:
 
